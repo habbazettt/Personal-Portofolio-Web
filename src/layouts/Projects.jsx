@@ -5,7 +5,7 @@ import CardDesign from "../components/CardDesign"
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import './style.css';
+import '../style.css';
 
 // import required modules
 import { Pagination } from 'swiper/modules';

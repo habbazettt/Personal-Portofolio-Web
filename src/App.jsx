@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="w-full h-full scroll-smooth">
       <Navbar />
-      <div className="w-full bg-primary border-b-4 border-secondary">
+      <div className="w-full bg-primary border-b-4 border-secondary" id="hero">
         <Hero />
       </div>
       <div className="border-b-4 border-secondary">

@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 
 const Hero = () => {
     return (
-        <div className="container mx-auto min-h-screen grid grid-cols-1 md:grid-cols-2  px-8 md:px-24 justify-between items-center py-10 bg-primary">
+        <div className="container mx-auto min-h-screen grid grid-cols-1 md:grid-cols-2  px-8 md:px-24 justify-between items-center py-10 bg-primary" id='hero'>
             <div className="order-last xl:order-first ">
                 <p className="text-xl text-left md:text-2xl font-semibold text-white">Hi, I&apos;m Hubbal Kholiq Habbaza</p>
                 <h1 className="text-2xl text-left md:text-4xl font-bold text-secondary mt-1">Fullstack Web Developer & UI/UX Designer</h1>
