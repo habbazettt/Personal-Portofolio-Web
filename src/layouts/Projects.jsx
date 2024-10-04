@@ -23,14 +23,16 @@ const Projects = () => {
                             slidesPerView: 1,
                         },
                         1024: {
-                            slidesPerView: 2,
+                            slidesPerView: 4,
                         },
                     }}
                     spaceBetween={30}
-
                     modules={[Pagination]}
                     loop={true}
                     className="mySwiper"
+                    pagination={{
+                        dynamicBullets: true,
+                    }}
                 >
                     <SwiperSlide>
                         <Card
@@ -47,7 +49,7 @@ const Projects = () => {
                             cover='/Projects/UserManagement.png'
                             title="User Management Website"
                             desc="Build User Management Website with NodeJS and Bootstrap, and deployed on Cyclic."
-                            images={['/jsIcon.png', '/nodeIcon.png', '/bootstrapIcon.png']}
+                            images={['/mongo.png', '/nodeIcon.png', '/bootstrapIcon.png']}
                             liveDemo='https://spotless-plum-loafers.cyclic.app/'
                             github="https://github.com/habbazettt/User-Management-System"
                         />

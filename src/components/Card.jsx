@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa"
 
 const Card = ({ title, cover, desc, images, liveDemo, github }) => {
     return (
-        <div className="mt-10 w-full h-full md:w-[500px] rounded-xl shadow-md bg-primary pb-6">
+        <div className="mt-10 w-full h-full md:w-[400px] rounded-xl shadow-md bg-primary pb-6">
             <img src={cover} className="w-full object-cover" alt="" />
             <div className="flex flex-col justify-center items-center px-6">
                 <h1 className="text-xl md:text-2xl text-white py-2 font-semibold">{title}</h1>
@@ -12,7 +12,7 @@ const Card = ({ title, cover, desc, images, liveDemo, github }) => {
                 <div className="flex justify-between items-center mt-3 gap-6">
                     {
                         images.map((image, index) => (
-                            <img key={index} src={image} alt="" />
+                            <img key={index} src={image} className="max-w-10 h-10" alt="" />
                         ))
                     }
                 </div>

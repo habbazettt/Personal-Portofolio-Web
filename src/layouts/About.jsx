@@ -14,14 +14,14 @@ const About = () => {
 
                 <p className="mt-10 text-gray-600 text-xs sm:text-lg">
                     Enthusiastic Computer Science student with a passion for front end development and UI/UX design seeking opportunities to apply my skills and knowledge.
-                    6th semester Computer Science student at UIN Sunan Gunung Djati Bandung
+                    7th semester Computer Science student at UIN Sunan Gunung Djati Bandung
                     Experience in web development using ReactJS and UI/UX design
                     Proficient in web programming languages (HTML, CSS, JavaScript) and UI/UX principles
                     Committed to maintaining memorization of the Quran
                     Actively involved in extracurricular activities, including KM Jateng Bandung Raya, RITMA, BSO Ruang Grafis
                     Seeking opportunities to collaborate and contribute my skills to meaningful projects.</p>
 
-                <div className="mt-4 md:mt-6 flex flex-wrap justify-center md:justify-start items-end gap-4">
+                <div className="mt-4 md:mt-6 grid grid-cols-5 justify-start md:justify-start items-end gap-6">
                     <img src="/skills/figma.png" alt="" />
                     <img src="/skills/react.png" width={40} alt="" />
                     <img src="/skills/javascript.png" alt="" />
@@ -29,6 +29,9 @@ const About = () => {
                     <img src="/skills/python.png" alt="" />
                     <img src="/skills/tailwindcss.png" alt="" />
                     <img src="/skills/Bootstrap.png" alt="" />
+                    <img src="/skills/express.png" width={70} alt="" />
+                    <img src="/skills/mongo.png" width={70} alt="" />
+                    <img src="/skills/typescript.png" width={70} alt="" />
                 </div>
             </div>
         </div>

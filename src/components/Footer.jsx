@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="w-full mt-6" />
-            <h1 className="text-white text-sm text-center mt-4">© 2023 Nimrod. All Rights Reserved.</h1>
+            <h1 className="text-white text-sm text-center mt-4">© 2024 Habbaza. All Rights Reserved.</h1>
         </div>
     )
 }
